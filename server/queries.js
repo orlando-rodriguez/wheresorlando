@@ -1,5 +1,6 @@
 const database = require('./database-connection');
 
+
 module.exports = {
     listPlaces(){
         return database('basic_information').select();
