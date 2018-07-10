@@ -1,0 +1,320 @@
+.Add {
+    margin-bottom: 50px;
+}
+
+.App {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.Header {
+    height: 10%;
+    width: 100%;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+header {
+    text-align: center;
+}
+
+.brand {
+    padding: 0;
+    margin: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    display: inline;
+    color: #ff6c59;
+}
+
+.Add {
+    float: right;
+    font-size: 20pt;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 2px 2px 2px 5px;
+    background-color: #3C474B;
+    box-shadow: 3px 3px 3px black;
+    transition: .2s;
+}
+
+.Add:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+
+.Loading {
+    position: fixed;
+    z-index: 1;
+    margin-left: 26vw;
+    margin-top: 5vh;
+}
+
+
+.Map {
+    position: fixed;
+    top: 10vh;
+    z-index: 2;
+}
+
+ul {
+    padding: 0;
+    margin-top: 61vh;
+}
+
+.Name {
+    font-family: "Ubuntu", sans-serif;
+    color: #ffffff;
+    text-align: left;
+    width: 125px;
+    margin-left: 6px;
+}
+
+.ListItem {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4%;
+    margin-right: 4%;
+    border: 1px solid white;
+    background-color: #ff6c59;
+    border-radius: 5px;
+    z-index: 2;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 5px 5px 5px lightgray;
+    height: 50px;
+    margin-bottom: 15px;
+    transition: .2s;
+}
+
+.ListItem:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+li {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.ListArea {
+    height: 50vh;
+}
+
+.Distance {
+    margin-right: 10px;
+    margin-top: 18px;
+}
+
+.Address {
+    width: 140px;
+    color: white;
+    text-align: right;
+    margin-right: 6px;
+}
+
+.UserComment {
+    font-family: 'Ubuntu';
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #4F7CAC;
+    padding-right: 10px;
+    box-shadow: 5px 5px 5px black;
+    margin-bottom: 10px;
+}
+
+.Delete {
+    border: 1px solid white;
+    border-radius: 5px;
+    color: black;
+    float: right;
+    padding: 2px 2px 2px 2px;
+    top: 10px;
+    background-color: #ffffff;
+
+    transition: .2s;
+}
+
+.Close {
+  border: 1px solid white;
+  border-radius: 5px;
+  color: black;
+  background-color: #ffffff;
+  padding: 2px 2px 2px 2px;
+  top: 10px;
+  transition: .2s;
+}
+
+.Delete:hover, .Close:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+h3 {
+    color: white;
+}
+
+
+
+.Title {
+    display: flex;
+    margin-top: -2.75vh;
+    align-content: center;
+    padding-left: 10px;
+    color: white;
+    margin-left: 17%;
+}
+
+.Comment {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+.Form {
+  overflow: scroll;
+    margin-top: 2vh;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: 'Ubuntu';
+    padding: 10px 10px 10px 10px;
+    background-color: #3C474B;
+    height: 22vh;
+    box-shadow: 5px 5px 5px black;
+}
+
+.Submit{
+    background-color: white;
+    border: 1px solid white;
+    color: indianred;
+    height: 34px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 32%;
+    margin-top: 18px;
+    transition: .2s;
+}
+
+.Submit:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.Form {
+  background-color: #ff6c59;
+}
+.Small {
+    color: white;
+    margin-bottom: 5px;
+}
+
+small {
+    color: white;
+}
+
+.Input {
+    margin-left: 10px;
+}
+
+.Modal {
+  position: fixed;
+  overflow: scroll;
+  z-index: 3;
+  height: 100vh;
+  width: 100vw;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.OuterWrapper {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    height: 50%;
+    width: 80%;
+    z-index: 4;
+}
+
+.InnerWrapper {
+    position: relative;
+    left: -50%;
+    top: -50%;
+    background-color: #ff6c59;
+    padding: 10px;
+    font-family: "Ubuntu", sans-serif;
+    border: solid 2px white;
+    z-index: 4;
+     border-radius: 5px;
+     max-height: 60vh;
+     overflow: scroll;
+     max-width: 50vh;
+     box-shadow: 10px 15px 10px black;
+
+}
+
+.InnerModal {
+    height: 100%;
+    width: 100%;
+}
+
+.Yes {
+    float: left;
+    border: 1px solid white;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 5px;
+    margin-left: 40px;
+    background-color: #3C474B;
+    transition: .2s;
+    color: white;
+}
+
+.Yes:hover {
+    transform: scale(1.5);
+}
+
+.No {
+    float: right;
+    border: 1px solid white;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 5px;
+    margin-right: 40px;
+    background-color: #3C474B;
+    transition: .2s;
+    color: white;
+}
+
+.No:hover {
+    transform: scale(1.5);
+}
+
+.Message {
+    margin-left: 34px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+button {
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 15px;
+  color: indianred;
+}
