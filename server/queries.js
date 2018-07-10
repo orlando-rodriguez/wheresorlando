@@ -3,7 +3,7 @@ const database = require('./database-connection');
 
 module.exports = {
     listPlaces(){
-        return database('basic_information').select();
+        return database('basic_information');
     },
     readPlace(id){
         return database('basic_information')

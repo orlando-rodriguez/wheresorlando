@@ -6,35 +6,35 @@ exports.seed = function(knex, Promise) {
       return knex('basic_information').insert([
         {
           id: 1,
-          name: 'Galvanize',
-          description: 'A large building that hosts the Galvanize programming school downstairs and many tech businesses on the other floors.',
+          name: 'La Catedral',
+          description: 'Authentic Cuban Cuisine at affordable prices. Near the Malecon.',
           coordinates: {
-            latitude: 39.7576196,
-            longitude: -105.0069694
+            latitude: 23.1356663,
+            longitude: -82.40449
           },
-          address: '1644 Platte Street, Denver',
+          address: 'Calle 8 entre y 5 de Calzada',
           distance: ''
         },
         {
           id: 2,
-          name: 'Union Station',
-          description: 'The main transit hub for downtown Denver.',
+          name: 'Eiffel Tower',
+          description: 'French landmark for representation in the World Fair',
           coordinates: {
-            latitude: 39.7526509,
-            longitude: -105.00168500000001
+            latitude: 48.85837009999999,
+            longitude: 2.2944813000000295
           },
-          address: '1701 Wynkoop Street, Denver',
+          address: 'Champ de Mars, 5 Avenue Anatole France',
           distance: ''
         },
         {
           id: 3,
-          name: 'Whole Foods',
-          description: 'A large natural foods store near Union Station.',
+          name: 'St Peters Bailica',
+          description: 'Italian Renaissance church in Vatican City',
           coordinates: {
-            latitude: 39.7546184,
-            longitude: -105.00139919999998
+            latitude: 41.902916,
+            longitude: 12.453389000000016
           },
-          address: '1701 Wewatta Street, Denver',
+          address: 'Piazza San Pietro, 00120 Città del Vaticano',
           distance: ''
         }
       ]);

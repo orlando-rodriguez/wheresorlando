@@ -6,19 +6,19 @@ exports.seed = function(knex, Promise) {
       return knex('comments').insert([
         {
          id: 1,
-         title: 'Nice place',
-         body: 'nice upstairs area to work in with couches, etc. Great spot to grab food as well! ',
-         location_id: 3
+         title: 'Great Drinks',
+         body: 'Come for the food, stay for the $0.95 drinks! ',
+         location_id: 1
        },{
          id: 2,
-         title: 'Sam Jones',
-         body: 'great open area with free wifi, tons of leather couches and places to sit. Nice bar as well!',
+         title: 'Make a Reservation',
+         body: 'Amazing views of Paris but it could take you 4+ hours to visit. Plan ahead and reserve your tickets before your trip.',
          location_id: 2
        },{
          id: 3,
-         title: 'Cozy spot',
-         body: 'Cool building, lots of glass and steel. People are pretty friendly.',
-         location_id: 1
+         title: 'Breathtaking',
+         body: 'Historic art and architecture will leave you feeling just a little bit empty.',
+         location_id: 3
        }
       ]);
     }).then(() => {

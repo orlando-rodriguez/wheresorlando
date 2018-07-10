@@ -1,0 +1,25 @@
+{
+  "name": "galvanize-tower",
+  "version": "1.0.0",
+  "description": "In this project, you'll build a full-stack application that has an API, reads and writes data, and uses a library. The topic is up to you!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orlando-rodriguez/galvanize-tower.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orlando-rodriguez/galvanize-tower/issues"
+  },
+  "homepage": "https://github.com/orlando-rodriguez/galvanize-tower#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "knex": "^0.14.6",
+    "pg": "^7.4.3"
+  }
+}
